@@ -6,14 +6,11 @@ import {
   StyleSheet,
   StatusBar,
   Platform,
-  
 } from "react-native";
 // import { Icon } from "@rneui/themed";
 import IngredientsList from "./ingredientsList";
 
-import { Entypo, Octicons,AntDesign } from "@expo/vector-icons";
-
-
+import { Entypo, Octicons, AntDesign } from "@expo/vector-icons";
 
 const InfoScreen = ({ route, navigation }) => {
   const item = route.params;
@@ -26,7 +23,7 @@ const InfoScreen = ({ route, navigation }) => {
           resizeMode="cover"
           style={styles.imgBackground}
         >
-            {/* --------------- */}
+          {/* --------------- */}
           {/* <View style={styles.iconsView}>
                     <Icon name="close" color={"#FFFF"} type="material-community" size={40} onPress={() =>
                                 navigation.navigate('MainScreen')} />
@@ -35,8 +32,7 @@ const InfoScreen = ({ route, navigation }) => {
                             <Icon name="heart-outline" color={"#FFFF"} type="material-community" size={40} />
                         </View>
                     </View> */}
-            {/* --------------- */}
-
+          {/* --------------- */}
 
           <View style={styles.iconsView}>
             <AntDesign
@@ -55,8 +51,7 @@ const InfoScreen = ({ route, navigation }) => {
               <Entypo name="share-alternative" size={30} color="white" />
               <Octicons name="heart" size={30} color="white" />
             </View>
-          </View> 
-
+          </View>
 
           <View style={styles.viewSeparator}></View>
           <View style={styles.titleView}>
