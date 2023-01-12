@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { View,Text } from "react-native";
 import SearchBarComponent from "./search-bar.js";
 import { styles } from "../styles/styleApp";
 import TrendingList from "./trending-list.js";
@@ -19,6 +19,9 @@ const MainScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
+      <Text style={[styles.title,{textAlign:"center", color:"white"}]}>
+        My Recent
+      </Text>
       <View style={styles.component}>
         <SearchBarComponent />
       </View>

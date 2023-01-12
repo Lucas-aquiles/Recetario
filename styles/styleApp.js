@@ -8,6 +8,10 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
     },
+    title:{
+        paddingTop:20,
+        fontSize:20,
+    },
 
     component: {
         marginTop: 10,
