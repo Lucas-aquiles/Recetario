@@ -1,7 +1,8 @@
 import React from "react";
 import { TouchableOpacity, Text, Image, StyleSheet, View } from "react-native";
 
-const Ingredient = ({ ingredient }) => (
+const Ingredient = ({ ingredient }) => { 
+  return(
   <View style={styles.container}>
     <View style={[styles.item]}>
       <Text style={styles.name}>{ingredient.name}</Text>
@@ -11,7 +12,8 @@ const Ingredient = ({ ingredient }) => (
     </View>
     <View style={styles.separator}></View>
   </View>
-);
+)};
+
 
 const styles = StyleSheet.create({
   container: {

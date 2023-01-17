@@ -116,12 +116,14 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     paddingHorizontal: 20,
     width: "100%",
+    paddingTop:20,
 
     backgroundColor: "rgba(0,0,0,0.4)",
   },
   titleView: {
     backgroundColor: "rgba(0,0,0,0.4)",
     height: "100%",
+    paddingLeft:20
   },
   viewIngredients: {
     height: "60%",
