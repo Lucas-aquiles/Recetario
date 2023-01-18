@@ -14,6 +14,7 @@ import { Entypo, Octicons, AntDesign } from "@expo/vector-icons";
 
 const InfoScreen = ({ route, navigation }) => {
   const item = route.params;
+  console.log("holaaaaaaaa",item)
 
   return (
     <View style={styles.container}>
